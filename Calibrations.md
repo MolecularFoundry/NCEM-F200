@@ -1,11 +1,16 @@
 
 # 200 kV Calibrations
 
+## 200kV Rotation between realspace and reciprocal space
+
+
 ## TEM Real Space 200kV
+
+### TEM realspace 200kV on Clearview
 Date : 2026/04/24
 Sample: 2160 l/mm diffraction grating replica from SPI
 Camera : ClearView
-Binning : 1
+Conditions: 200kV, Binning=1
 
 
 | Displayed Mag | Actual Mag | Camera Dimensions (nm) | Pixel Size (bin 1) | Spot | Angle |
@@ -32,7 +37,12 @@ Binning : 1
 
 ## TEM Reciprocal Space 200kV
 
-### Arina
+### Arina Reciprocal Space 200kV
+
+Date : 2026/05/01
+Sample : Oriented Gold Sample with plane spacing of .204nm, .144nm, .102nm -> 12.3 mrad, 17.43mrad, 24.61mrad at 200kV
+Camera : Dectris Arina
+Conditions : 200kV, 80kX mag, 2.5um x 2.5um FOV, 256x256 pixel Arina scans, 200usec pixel time. Various camera lengths. 
 
 ### Clearview
 
