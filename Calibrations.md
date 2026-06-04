@@ -44,8 +44,29 @@ Sample : Oriented Gold Sample with plane spacing of .204nm, .144nm, .102nm -> 12
 Camera : Dectris Arina
 Conditions : 200kV, 80kX mag, 2.5um x 2.5um FOV, 256x256 pixel Arina scans, 200usec pixel time. Various camera lengths. 
 
-### Clearview
+### Clearview Reciprocal Space at 200kV
+Date : 2026/06/03
+Sample: Evaporated Aluminum grid from EMS
+Camera : ClearView
+Conditions: 200kV, Binning=1
+Column Settings : Spot 5, Angle 1
+Diff focus : 19947 DAC
+IL Stig : 8017, 7DDE
 
+| Displayed Cam L | Real Cam L | Camera Size (1/nm) |
+| --- | --- | --- |
+| 2000 | 2402.28 | 10.1971 |
+| 1500 | 1835.13 | 13.3485 |
+| 1200 | 1408.69 | 17.3894 |
+| 1000 | 1183.38 | 20.7003 |
+| 800  | 960.613 | 25.5008 |
+| 600  | 695.752 | 35.2084 |
+| 500  | 581.884 | 42.098  |
+| 400  | 482.502 | 50.769  |
+| 300  | 341.415 | 71.749  |
+| 250  | 291.187 | 84.126  |
+| 200  | 230.981 | 106.054 |
+| 150  | 169.369 | 144.633 |
 ## STEM Real Space 200kV
 
 ## STEM Reciprocal Space 200kV

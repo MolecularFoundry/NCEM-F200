@@ -42,13 +42,13 @@ This alignment is needed hor high resolution TEM and needs a reasonably thin amo
 5. Select the OBJ STIG button on the left hand panel, and adjust the DEF/STIG knobs till the rings are circular. You can make a ellicptial annotation on the FFT and hold down the shift key while making the annotation. This will force the ellipse to be circular and this circle can serve as a guide to judge ellipticity of the FFT. ![Objective Stigmation](objective stigmation.png)
 6. Adjust the defocus such that you see only 1 ring in the FFT and adjust objective stigmation if needed. 
 
-## Aligning the Objective aperture for BF/DF
+## Diffraction and BF/DF imaging
 
 This alignment is only needed if you want to do high contrast TEM. Inserting an objective aperture will cut off the electrons scattered to high angles, which contain the high spatial frequency information needed to reconstrust an atomic resolution TEM image. However, for  BF/DF imaging where diffraction contrast needs to be maximized, this is very useful. 
 
 1. Insert an appropritate SAD aperture. 
 2. Go into Diffraction mode by pushing the DIFF button on the right hand console. 
-3. Insert an objective (HC) aperture.
+3. Insert a high contrast (HC) aperture using either the touchscreen panel above the left hand console, or the Detectors/Apertures window in TEM Center.
 4. Sharpen the direct beam with the brightness knob-- this is essentially making sure your beam is parallel and not convergent or divergent. Do not do this with Diff Focus. Diff focus should not have to be changed from the default. Adjusting diff focus to sharpen the HC aperture doesnt work since the HC aperture is not physically in the back focal plane.  
 5. Insert the HC aperture using the touchscreen panel above the left hand panel. Move the HC aperture so that it is centered around the direct beam. If you want to do dirty dark field imaging, move the HC aperture till it is positioned around a specific Bragg reflection. 
 6. Return to MAG mode and retract the SAD aperture. You now have a bright field image or a dirty dark field image of your sample.
@@ -65,18 +65,17 @@ Do all the alignments in the above sections, but work at spot 2 or 3, alpha 1, a
 
 ## Dark Field TEM
 1. Align the optical axis as described above. 
-2. Focus on the sample.
+2. Bring sample into focus using Z height adjustment.
 3. Confirm [voltage center](Voltage Centering.md).
 4. Insert a SAD aperture, select DIFF on the right hand panel, and center the diffraction pattern using PLA on the left hand panel and adjusting the DEF/STIG knobs. 
 5. Select Dark Tilt and center the direct beam using DEF/STIG.
 6. Select Bright Tilt and center the direct beam using DEF/STIG. 
 7. Repeat 5-6 till the diffraction pattern does not move as you toggle between bright tilt and dark tilt. This invariably will introduce some beam tilt into the column. 
-8. While in DIFF mode, insert a small HC aperture. Focus on the edge of the aperture using the focus knob on the right hand panel, and sharpen the central spot using the brightness knob on the left hand panel. Once this is done, you have a parallel beam, so do not change brightness. 
-9. Retract the HC aperture. 
-10. Select dark tilt, and use the DEF/STIG knobs to center the desired diffraction spot. 
-11. Insert the HC aperture and center it. 
-12. Switch to MAG mode and retract the SAD aperture. 
-13. Focus and record.
+8. While in DIFF mode, go to std focus (by double tapping on the button on the right hand panel), and sharpen the central spot in the diffraction pattern using the brighness knob (ie, you are creating a parallel beam).
+9.  Select dark tilt, and use the DEF/STIG knobs to center the desired diffraction spot. 
+10. Insert the HC aperture and center it about the desired spot. 
+11. Switch to MAG mode and retract the SAD aperture. 
+12. Focus and record.
 
 PS-- you can also tilt the stage in addition to the beam to use 2-beam imaging. 
 

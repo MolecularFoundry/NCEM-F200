@@ -14,7 +14,7 @@ If you come to the microscope and find the HT is currently not at the value you 
 5. Once emission is turned on, an emission current will be read in the TEM Center Detectors/Aperture window. This is should about 14-15 uA right after emission is brought up. 
 
 ## Adding Liquid Nitrogen
-If the column vacuum (SiP3) is below 4E-5 Pa, there is no need to use liquid nitrogen, but if the vacuum is high:
+If the column vacuum (SiP3) is below 4E-5 Pa and your sample does not outgas much, there is no need to use liquid nitrogen, but if the vacuum is high:
 1. Wear PPE.
 2. Retrieve a dewar full of LN2 from the station outside NCEM. 
 3. Remove the Anti Contamination Device (ACD) heater from the liquid nitrogen tank on the left side of the column. 
