@@ -48,26 +48,31 @@ Conditions : 200kV, 80kX mag, 2.5um x 2.5um FOV, 256x256 pixel Arina scans, 200u
 Date : 2026/06/03
 Sample: Evaporated Aluminum grid from EMS
 Camera : ClearView
-Conditions: 200kV, Binning=1
-Column Settings : Spot 5, Angle 1
-Diff focus : 19947 DAC
-IL Stig : 8017, 7DDE
+Conditions: 200kV, 1024x1024 scans
+Column Settings : Spot 7
 
-| Displayed Cam L | Real Cam L | Camera Size (1/nm) |
-| --- | --- | --- |
-| 2000 | 2402.28 | 10.1971 |
-| 1500 | 1835.13 | 13.3485 |
-| 1200 | 1408.69 | 17.3894 |
-| 1000 | 1183.38 | 20.7003 |
-| 800  | 960.613 | 25.5008 |
-| 600  | 695.752 | 35.2084 |
-| 500  | 581.884 | 42.098  |
-| 400  | 482.502 | 50.769  |
-| 300  | 341.415 | 71.749  |
-| 250  | 291.187 | 84.126  |
-| 200  | 230.981 | 106.054 |
-| 150  | 169.369 | 144.633 |
+
+| Displayed Mag |  Camera Size (nm) |
+| --- | --- |
+| 10000 | 21013.7 |
+| 12000 | 17457.4 |
+| 15000 | 13944 |
+| 20000 | 10427.6 |
+| 25000  | 8314.18 | 
+| 30000| 7056.32 |
+| 40000  | 5243.58 | 
+| 50000  | 4193.79 |
+| 60000  | 3535.53 | 
+| 80000  | 2608.14 | 
+| 100000  | 2110.63 | 
+| 120000  | 1756.26 |
+| 150000  | 1407.26 |
+| 200000  | 1042.49 |
 ## STEM Real Space 200kV
+Date : 2026/06/09
+Sample : Waffle grid with 463nm grid spacing.
+Camera : Dectris Arina
+Conditions : 200kV,  200usec pixel time. Various camera lengths. 
 
 ## STEM Reciprocal Space 200kV
 
