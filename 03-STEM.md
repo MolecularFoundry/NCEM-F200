@@ -1,5 +1,5 @@
 # Begin Observation and Find ROI
-You can find the ROI in TEM mode as described previously. Do quick alignments in TEM mode to make sure the beam is reasonably aligned. 
+You can find the ROI in TEM mode as described previously. Do quick alignments in TEM mode to make sure the beam is reasonably aligned. Alternatively, in TEM Center, you can go to Spot mode (under scan), which stops the beam from scanning. Then, you can click the ronchigram button, which will view the fluorescent screen. When you are out of focus or at wrong Z height, this is basically a poor TEM image, and you can use it for finding your ROI more quickly. Navigate on the stage using the trackball, and then adjust z heigt after you are close to the desired ROI.  
 
 # Switching from TEM to STEM
 1. Converge the electron beam with the BRIGHTNESS knob.
@@ -14,7 +14,7 @@ After moving the operation mode to Scanning, the GUI will change.
 3. Move the stage till an amorphous region is under the beam. 
 4. Press the STD FOCUS button on the right hand panel twice. 
 5. Adjust stage Z height up or down to increase the "magnification" of the shadow image you see in the ronchigram. In ideal circumstances, this shadow image should have infinite magnification. 
-6. Once the z height is such that the magnification is nearly infinite, correct 2 fold stigmation by pressing the CL STIG button on the left hand panel, and using the DEF/STIG X/Y knobs. ![CL Stigmation in Ronchigram](images\ronchigram-cond-stig.png)
+6. Once the z height is such that the magnification is nearly infinite, correct 2 fold stigmation by pressing the CL STIG button on the left hand panel, and using the DEF/STIG X/Y knobs. ![CL Stigmation in Ronchigram](./images/ronchigram-cond-stig.png)
 7. Activate the OL wobble in the wobbler window. The center of the Ronchigram (flat, uniform region) should be the center of convergence. If not, use the DEF/STIG knobs to adjust this. 
 8. Disable the OL wobble. 
 9. Center the ronchigram on the fluorescent screen camera using PLA (on left hand panel) and DEF/STIG knobs.
