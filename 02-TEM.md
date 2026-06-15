@@ -33,7 +33,7 @@ If your desired conditions do not give you a visible beam on the screen, and you
 6. Follow the procedure for [voltage centering](Voltage Centering.md).
    
 ## Objective stigmation
-This alignment is needed hor high resolution TEM and needs a reasonably thin amorphous specimen. The stage should also not be drifting too much and the sample should be stable under electron beam radiation. The workflow involves imaging the amorphous specimen on a camera, and make sure the fourier transform of the image has rotational symmetry. 
+This alignment is needed for high resolution TEM and needs a reasonably thin amorphous specimen. The stage should also not be drifting too much and the sample should be stable under electron beam radiation. The workflow involves imaging the amorphous specimen on a camera, and make sure the fourier transform of the image has rotational symmetry. 
 
 1. Find a suitable amorphous region.
 2. Set the magnification to ~ 300 to 600kX.
