@@ -4,6 +4,9 @@
 ## Holder safety
 When in doubt, check with NCEM staff about compatibaility of your holder with EDS detectors. The JEOL single and double tilt holders are compatable with EDS. Any in-situ holders need to be double checked. For the 3 sample holder, use EDS detector #1 only. 
 
+## Alignment notes 
+1. For EDS, we usually operate at a high beam current (low spot number).
+
 ## Inserting EDS detectors
 1. Find EDS detectors: The SSD detectors can be a little tricky to find. Minimize TEM center. If you don't see the floating OP panels, on the desktop there are two icons for software `SSD1` and `SSD2.` Click on these. If the software is already open, you'll get an error `This program is running.`  If they are minimized, you can find the icons in the bottom right menu bar.
 2. Insert EDS detectors by clicking first `retract` if they are in the `s-change` position and then `insert`.
