@@ -41,6 +41,8 @@ This holder needs special care-- samples can be loaded using the special tools w
 8. Move the holder to position 2 by turning the knob at the back of the holder, and repeat the process for your second sample. Then move the holder to position 3, and load your third sample. 
 9. Retract the holder to position 1 before loading into the TEM.  
 
+*** Important note *** Position 3 will crash into EDS detector #2 when inserted. In general, it is advised to only used EDS detector #2 when using this holder.
+
 # Loading a TEM holder into the TEM
 
  Once a sample has been loaded onto a TEM holder, the holder can be loaded into the microscope using either manual mode, or using the automated specporter. The specporter only works for specific holders (where the Specporter OK icon is observable in TEM Center software).
