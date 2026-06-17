@@ -9,7 +9,7 @@
 8. Converge the beam and use the shift knobs to center the beam. 
 9. Repeat steps 2-8 till the beam does not move as you go from spot 1 to 5.
 
-These gun aligments for each angle value are indepndent of each other, so you can redo the process at angle 1-5.    
+These gun aligments for each angle value are independent of each other, so you can redo the process at angle 1-5.    
 
 # Tilt/ Shift Balance (Pivot point): done rarely
 The purpose of this alignment is to decouple beam tilt and beam shift, ie, when you tilt the beam, you want to avoid introducing a shift in the illuminated area (and vice versa).

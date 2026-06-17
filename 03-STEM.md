@@ -29,6 +29,10 @@ After moving the operation mode to Scanning, the GUI will change.
 6. You can adjust magnification with the knob on the right hand panel. You will probably have to adjust brightness and contrast (aka offset and gain on the detector). You can do this in software, or you can use the knobs on the right hand panel. The settings on the hand panel will change depending on which detector view window is selected in TEM Center. 
 
 # Saving STEM images
-While you can do this in TEM Center, it is much easier to do this in Gatan GMS, to the point where I will not bother writing this section of the manual. I never really endorse Gatan products, but with a heavy heart, I am doing so in this case. 
+1. Set up your name and folder: at the bottom of TEM center there is a panel that says `Name` with a hyperlinked generated name below. Click on that to set-up your image saving options. You can specify automatic naming and if you want a tif, jpeg or both. Scroll down to the bottom of the pop-up and hit `ok`.
+2. Acquisition parameters can be modified by clicking on `scan settings` in the `Image Information` panel. This allows you to change dwell time and pixels. 
+3. There are two cpature buttons: one with a camera that let's you capture with currently selected scanning detector, and one with a camera with a line through it that let's you capture from all scanning detectors. The second is helpful if you want to acquire with bright field and dark field at the same time. 
+4. Annotations from measurements are saved in image. 
+5. After recording your first image, check that it has saved properly in the location you specified. 
+6. In the `scan settings` pop up there options for time series and defocus series. It's in a drop down menu usually set as `Single` in the `Series Capture` panel.
 
- 
