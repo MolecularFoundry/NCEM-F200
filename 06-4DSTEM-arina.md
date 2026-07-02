@@ -8,7 +8,7 @@
 The frame rate is up to 120kHz (8.33 microseconds) at 96x96 and up to 30kHz (33.3 microscections) for 192x192.  2Kx2K scan positions is possible, typically 1Kx1K is max. This is a silicon chip. 
 
 # Start-up
-1. Switch the external scan coils from Gatan to Dectris if you have not already done so. (Note: for now, this is manually done by swapping BNCs. Do not try to do this yourself. Ask staff for help.)
+1. Switch the external scan coils from Gatan to Dectris if you have not already done so. Chang the Scan SW Box to EDS 2.
 2. When you are sure that ClearView is retracted, you can insert the Arina camera. Use the retro silver triangular console with 3 big buttons under the Gatan computer. The indicator lights will show you when the camera in inserted ore tracted.
 3. The Arina camera has 3 tabs at the top: `Scan`, `Microscope`, and `Dectris`. We will start in the dectris tab. 
 4. Click on the lightening bolt to turn on the detector voltage. Regarding safety note #2, this is the voltage you need to turn on and off every time you open and close the beam valves or stop taking data. 

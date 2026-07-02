@@ -13,12 +13,13 @@ When in doubt, check with NCEM staff about compatibaility of your holder with ED
 3. You may want to bring up the SDD Selector (again usually minimized in the right panel if not visible) to view counts per second.
 
 ## Collecting EDS maps in digital micrograph
-1. Make sure you are in STEM SI mode
-2. Insert hard x-ray aperature (labeled HX) on JEOL PC if you want. This can be helpful for minimizing spurious signals and background counts.
-3. Start by collecting a dark field image in the scan tab
-4. In the SI acquisition pane, click on `EDS` and then `2D Array`. This will let you draw a field of view to scan. You can specify step size and box size. 
-5. In general, it's sensible to do a low collection time and multiple passes but it will depend on your sample. 
-6. If you're doing multiple passes, you may want to do drift correction. Make sure the `Drift` is selected as well as the `BF-DF`, so a simultaneous image is collected for drift correction. 
+1. Make sure you are in STEM SI mode.
+2. Change the STEM switch box to EDS 1 if you haven't already.
+3. Insert hard x-ray aperature (labeled HX) on JEOL PC if you want. This can be helpful for minimizing spurious signals and background counts.
+4. Start by collecting a dark field image in the scan tab
+5. In the SI acquisition pane, click on `EDS` and then `2D Array`. This will let you draw a field of view to scan. You can specify step size and box size. 
+6. In general, it's sensible to do a low collection time and multiple passes but it will depend on your sample. 
+7. If you're doing multiple passes, you may want to do drift correction. Make sure the `Drift` is selected as well as the `BF-DF`, so a simultaneous image is collected for drift correction. 
 
 ## Collecting EDS data in JEOL software
 to be added
