@@ -15,7 +15,7 @@ After moving the operation mode to Scanning, the GUI will change.
 4. Press the STD FOCUS button on the right hand panel twice. 
 5. Adjust stage Z height up or down to increase the "magnification" of the shadow image you see in the ronchigram. In ideal circumstances, this shadow image should have infinite magnification. 
 6. Once the z height is such that the magnification is nearly infinite, correct 2 fold stigmation by pressing the CL STIG button on the left hand panel, and using the DEF/STIG X/Y knobs. ![CL Stigmation in Ronchigram](./images/ronchigram-cond-stig.png)
-7. Activate the OL wobble in the wobbler window. The center of the Ronchigram (flat, uniform region) should be the center of convergence. If not, use the DEF/STIG knobs to adjust this. 
+7. This alignment is rarely needed: You may however activate the OL wobble in the wobbler window. The center of the Ronchigram (flat, uniform region) should be the center of convergence. If not, use the DEF/STIG knobs to adjust this. 
 8. Disable the OL wobble. 
 9. Center the ronchigram on the fluorescent screen camera using PLA (on left hand panel) and DEF/STIG knobs.
 10. Insert the desired (normally 40um) condenser aperture and position it concentrically around the flat part of the ronchigram. 
@@ -23,10 +23,11 @@ After moving the operation mode to Scanning, the GUI will change.
 # Viewing STEM images    
 1. Open the Camera Length setting window from the Camera Length in the Detector/Aperture tab panel and select a value suitable for the purpose of viewing images.
 2. Insert the DF and/or the BF detector using the BF and DF buttons in the TEM schematic in TEM Center Detectors / Apertures tab. 
-3. Under the Scan menu, activate the "Full Scan", which will start the scan coils. 
-4. Under View menu, select Scan DFI Upper for HAADF, and Scan BFI Bottom for bright field STEM imaging. New popup windows will appear. If a "pause" icon is present in the top left corner of the pop up windows, it means that even through the beam is scanning, the detector data is not being read live. Click that button and it will start showing a live image. 
-5. Choose the appropriate pixel time (typically 10us per pixel) and scan size (typically 1k x 1k pixels)
-6. You can adjust magnification with the knob on the right hand panel. You will probably have to adjust brightness and contrast (aka offset and gain on the detector). You can do this in software, or you can use the knobs on the right hand panel. The settings on the hand panel will change depending on which detector view window is selected in TEM Center. 
+3. Note for BF, it can be helpful to insert a BF aperature to improve contrast.
+4. Under the Scan menu, activate the "Full Scan", which will start the scan coils. 
+5. Under View menu, select Scan DFI Upper for HAADF, and Scan BFI Bottom for bright field STEM imaging. New popup windows will appear. If a "pause" icon is present in the top left corner of the pop up windows, it means that even through the beam is scanning, the detector data is not being read live. Click that button and it will start showing a live image. 
+6. Choose the appropriate pixel time (typically 10us per pixel) and scan size (typically 1k x 1k pixels)
+7. You can adjust magnification with the knob on the right hand panel. You will probably have to adjust brightness and contrast (aka offset and gain on the detector). You can do this in software, or you can use the knobs on the right hand panel. The settings on the hand panel will change depending on which detector view window is selected in TEM Center. 
 
 # Saving STEM images
 1. Set up your name and folder: at the bottom of TEM center there is a panel that says `Name` with a hyperlinked generated name below. Click on that to set-up your image saving options. You can specify automatic naming and if you want a tif, jpeg or both. Scroll down to the bottom of the pop-up and hit `ok`.

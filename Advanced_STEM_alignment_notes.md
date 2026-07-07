@@ -3,7 +3,7 @@
 Written with Shane 17 June 2026
 Updated with Kevin 7 July 2026
 
-The `alignment` is very rarely used. The `OL wobbler` is more frequently used but still very occassionally. 
+These alignments very rarely need to be tuned, the `Alignment` mode even less than the other wobblers. Users should not be completing these alignment steps. If you think there is something wrong with the alignments, check in with NCEM staff.
 
 ## Mag alignments can be done in `Alignment` (This is one of the four options in STEM for modes. The others are mag, low mag, and micro micro diff)
 - This is the only place where you can tune CL3 to see the caustic spot. You can even take the aperature out to see the whole beam. This does not need to be done regularly.
@@ -16,6 +16,7 @@ The `alignment` is very rarely used. The `OL wobbler` is more frequently used bu
 - When you turn on the OL wobbler, beam align 2 is beam tilt, beam align1 is beam shift. Generally you don't want to mess with beam shift. We use beam tilt to center the expansion and minimize movement.
 - In real space, scan across a field of view at low mag such as 25kx, if you click the tilt x and tilt y wobblers, you can adjust the CL Comp Tilt to minimize movement of the image. 
 - In ronchigram mode, if you turn on shift x and shift y wobbler, you want to minimize movement of aperature. Switch back and forth between x and y as needed. This alignment should be done at high mag (800kx or higher)
+- HT wobbler, pulses the high voltage.  You're checking to make sure the image doesn't move. You can tell that this out if you focus and the image mode. You have a different current center for each alpha in TEM or for STEM v. µµdiff. 
 - Iterate through these alignments as needed.
 
 
