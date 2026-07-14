@@ -4,13 +4,14 @@
 If you come to the microscope and find the HT is currently not at the value you would like, do the following:
 1. Click on the HT button in TEM Center Detectors/Aperture window. 
 2. If your desired voltage is 80kV, turn on the EL short by clicking 100. If your desired voltage is 200kV, make sure the EL short is off. The EL short options might not be visible, so make sure to expand that menu.
-3. Select the desired target HT (only 80kV and 200kV are available)
+3. Select the desired target HT (only 80kV and 200kV are available). The selected HT must be in green.
 4. Make sure the HT ON button is green. If not, click it. 
 
 ### Changing Voltage
 1. If you're changing voltages, you always need to turn the HT off first.
 2. Change the EL short. If you're going to 80kV, you need the EL short on (select 100).
-3. Turn the HT back on. 
+3. Select the voltage you want (it should be green).
+4. Turn the HT back on. 
 
 ### Turning on Emission
 1. Click on the "Emission" button in the TEM Center Detectors/Aperture window.

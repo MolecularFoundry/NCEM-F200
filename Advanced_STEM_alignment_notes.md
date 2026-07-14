@@ -22,6 +22,7 @@ These alignments very rarely need to be tuned, the `Alignment` mode even less th
 
 ## Miscellaneous notes  
 - IL stig is used for diffraction roundness. However, you probably don't need to do this alignment, so check other things first. 
+- IL1 might help with descan.	
 - Alignments don't transfer between modes. For example, if you change bright tilt in mag, it doesn't necessarily transfter to micro micro diff. 
 - We don't tune coma directly in STEM.
 - You can set up multiple configurations of the funciton keys in case users want different defaults.
