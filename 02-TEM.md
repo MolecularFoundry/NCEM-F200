@@ -84,16 +84,15 @@ PS-- you can also tilt the stage in addition to the beam to use 2-beam imaging.
 The Gatan Clearview Camera is used for TEM and parallel beam diffraction. This camera is accessed via a dedicated computer (known as the Gatan PC). Typically, you will find the left side monitor will be connected to the Gatan PC. The mouse and keyboard used to operate the JEOL PC should be useable on the Gatan PC via mouse without borders softwre. The data should all be saved in "S:" on the gatan PC, which is a network drive physically located in the JEOL-Support PC. This PC is connected to the internet and data can be retrieved via 
 
 In order to use the clearview camera :
-1. Make sure the microscope is reasonably aligned.
+1. Make sure the microscope is reasonably aligned and Dectris Arina is retracted.
 2. Set up a view on the fluorescent screen so that the beam is not too intense, and the region of interest is centered on the field of view at a magnification of interest. 
 3. Keep the clearview retracted and the fluorescent screen down.
-4. On the tools on the right side of the Gatan GMS software, under TEM imaging, press the view button. Do not insert the camera. Set up an appropriate binning and exposure time. 
+4. On the tools on the right side of the Gatan GMS software, under TEM imaging, press the view button. Set up an appropriate binning and exposure time. 
 5. Make sure the image you observe is random noise, and does not have any artefacts. If there are some obvious burn marks, a new gain and dark correction will need to be done. Call NCEM staff. 
-6. If the camera looks OK, make sure the Arina is retracted, and the right click on the Gatan Clear View icon in the left hand microscope schematic in GMS, and press "Insert". 
-7. Raise the fluorescent screen in TEM center or using the right hand panel. 
-8. You should not see an image on the camera. Make sure the plastic cover for the viewing window on the TEM is in use. Otherwise, room lights seem to affect the signal significantly. 
-9. If doing diffraction, you can insert a beam stop using "BS" button in the TEM Center software (in the microscope schematic). You can move the beamstop by double clicking on the BS icon. This stop is under the fluorescent screen, so it is hard to know if the beam will be centered on the stop when you see it on the camera. So, be careful when doing diffraction, and start with a very small exposure time and binning of 1. 
-10. Set up the correct binning and exposure time on the acquire settings and press acquire. Be careful not to over-expose the camera as that can cause permanent sensor damage. 
+6. Raise the fluorescent screen in TEM center or using the right hand panel. 
+7. Make sure the plastic cover for the viewing window on the TEM is in use. Otherwise, room lights seem to affect the signal significantly. You should now see an image of your sample on the clearview camera. 
+8. If doing diffraction, you can insert a beam stop using "BS" button in the TEM Center software (in the microscope schematic). You can move the beamstop by double clicking on the BS icon. This stop is under the fluorescent screen, so it is hard to know if the beam will be centered on the stop when you see it on the camera. So, be careful when doing diffraction, and start with a very small exposure time and binning of 1. 
+9.  Set up the correct binning and exposure time on the acquire settings and press acquire. Be careful not to over-expose the camera as that can cause permanent sensor damage. 
     
 ## Saving data    
 The data should be moved in to a separate workspace. You can now navigate to the tab for the new workspace, and save individual files. ALternatively, you could save the entire workspace with multiple images in it. The data should be saved in "S:", which is a mapped network drive. The drive and data are physically located in the F200-support PC. 
