@@ -1,0 +1,26 @@
+{
+  "$WorksheetFileContentSerialVersionId": 1,
+  "Title": "1229_1439",
+  "ElementFileContents": [
+    {
+      "$WorksheetElementFileContentSerialVersionId": 1,
+      "Guid": "3f86b112-ace0-4c2f-8c0f-9e218c807046",
+      "RelativePath": "HAADF_20251229_1439.jh5"
+    },
+    {
+      "$WorksheetElementFileContentSerialVersionId": 1,
+      "Guid": "50b91cb2-b811-4d5a-9348-d1af3afb0817",
+      "RelativePath": "BF_20251229_1439.jh5"
+    },
+    {
+      "$WorksheetElementFileContentSerialVersionId": 1,
+      "Guid": "07f8f00e-0888-4a95-8080-eafa0dd4197a",
+      "RelativePath": "Scan External 1_20251229_1439.jh5"
+    },
+    {
+      "$WorksheetElementFileContentSerialVersionId": 1,
+      "Guid": "97836543-9e37-4cb8-a9d4-75ce64ffb141",
+      "RelativePath": "Scan External 2_20251229_1439.jh5"
+    }
+  ]
+}

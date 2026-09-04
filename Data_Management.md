@@ -11,6 +11,9 @@
 
 ## Saving in JED
 
+## Saving Data to Crucible
+
+
 ## Accessing the Support PC from Windows PC (slow, ~ 0.1GB per minute)
 - The support PC is connected to LBL network. 
 - You should be able to log into the data drive using windows explorer and typing in "\\f200-support.dhcp.lbl.gov" into the address bar.

@@ -55,6 +55,7 @@ Before any sample exchange make sure the following are true:
 3. EDS detectors are retracted.
 4. Objective (HC) aperture is retracted. 
 5. Dectris Arina is retracted AND the high voltage on the sensor is turned off. The lighning bolt icon in the TVIPS software should show the word "Off" under the lightning bolt. 
+6. ClearView Camera is retracted.
 
 ![Goiniometer](./images/Goiniometer.png)
 
