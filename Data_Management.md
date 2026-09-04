@@ -16,7 +16,7 @@
 
 ## Accessing the Support PC from Windows PC (slow, ~ 0.1GB per minute)
 - The support PC is connected to LBL network. 
-- You should be able to log into the data drive using windows explorer and typing in "\\f200-support.dhcp.lbl.gov" into the address bar.
+- You should be able to log into the data drive using windows explorer and typing in \\\f200-support.dhcp.lbl.gov into the address bar.
 - Use the login credentials for NCEMuser 
 - You can then copy the data over to a local drive for analysis. 
 
