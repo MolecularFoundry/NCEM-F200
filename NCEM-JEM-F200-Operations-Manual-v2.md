@@ -39,7 +39,52 @@ If the accelerating voltage (HT) is not set to your desired operating value (80k
 6.  Ensure the **HT ON** button is green; click it to ramp the voltage if it is not.
 7.  Perform a CFEG **High Flash** (if first session of the day) or **Low Flash** (if emission current drops below $9\,\mu\text{A}$) to stabilize the beam.
 
-### 2.2 Specimen Loading and Holder Insertion
+### 2.2 Loading specimen into TEM holder
+
+
+#### Loading Samples into Single Tilt TEM Holder
+![Single Tilt Holder Image](./images/single_tilt.png)
+1. The "cartridge" where the sample is secured is removable by lifting the spring loaded "alligator clip" using the tool showed in the figure above. The cartridge can then be lifted and moved onto the white plastic chuck. The small metal pin on the plastic chuck should go through the small hole on the back end of the cartridge (away from the sample) to prevent the cartridge from sliding around. 
+2. Sligtly loosen the 2 screws, swivel the copper clamp with tweezers to reveal the 3mm specimen cup. Remove any sample in the cup using vacuum tweezers. 
+3. Place your sample in the cup, and swivel the copper clamp back on top of the sample. 
+4. Tighten the screws using a flat head mini screwdriver to secure the sample in place up to finger tight. Do not over tighten. 
+5. Load the cartridge back into the holder by lifting the spring loaded "alligator clip" while simultaneously inserting the cartridge into the mouth of the clip. You can use a gloved hand to lift and position the cartridge. There is a small pin inside the alligator clip, which should go through the hole in the cartridge.
+6. Check under an optical microscope to see if the sample is secure, and the cartridge is completely flat. 
+7. Check for fibers on the o-rings under the optical microscope. 
+
+#### Loading Samples into Double Tilt EDS Holder
+WARNING: This holder is made using Beryllium metal for X ray transparency. Beryllium can corrode when wet, and is extremely toxic.
+![Double Tilt Holder Image](./images/double_tilt_holder.png)
+![Double Tilt Holder Detailed Image](./images/double_tilt_detailed.png)
+1. Place the plastic sample exchange mount on the specimen holder stand. 
+2. Place the sample holder on the exchange mount with the guide pin facing downwards. The bottom surface of the sample retaining region should be supported by the plastic sample exchange mount. 
+3. Partially loosen 2 screws which hold down the copper retaining arms (called leaf springs) with a small flathead screwdriver. Swing the leaf springs away from the sample cup by gently poking them with a tweezer. 
+4. Remove the spacer and the specimen plate. These parts are very precious and easily misplaced, so keep them safely on the holder stand, preferrably on the white plastic support chuck for the holder tip. 
+5. If there is a sample in the holder, remove that. If not, place your sample in the empty 3mm sample retaining cup. 
+6. If using a thin TEM grid (such as a copper mesh grid), place the spacer onto the sample. This is not needed if you are using a sample thicker than 100 micron such as a SiN grid. 
+7. Place the "specimen fixing plate" onto the sample such that the wings of the specimen plate face towards the retaining arms. This plate helps distribute pressure evenly accross your sample and can only work in the orientation shown in the detailed holder view above. The wings of the spacer should sit in the grooves on the holder. If the specimen fixing plate orientation is rotated 180 degrees, the wings will still fit in the grooves, but tightening the screws will bend the sample cup because the wings are located off-center.  
+8. Place the retaining leaf springs on top of the wings of the specimen plate by gently poking and lifting with a sharp tweezer.
+9. Tighten the two screws to finger tightness. 
+10. Remove the sample rod from the loading cradle, and flip the rod over to make sure your sample does not fall out. You can gently tap the rod with a tweezer about 1 inch away from the sample region.
+
+#### Loading Samples into 3 sample high tilt holder
+This holder needs special care-- samples can be loaded using the special tools which come with the holder. The holder can be moved between the 3 sample positions by turning the knob at the back of the holder. 
+
+1. Move the sample to position 1.
+2. Place the holder into the cradle with the guide pin facing down. 
+3. Insert the plastic sample support chuck under the holder to make sure sample position 1 is supported. 
+4. Place your sample in the sample cup. 
+5. Place the spacer into the sample cup. This is not needed for Silicon nitride grids > 100um thickness. 
+6. Place the specimen fixing screw into the cup. 
+7. Use the 3 pronged screw driver to turn the specimen fixing screw into the sample cup. ![Three Sample Holder](./images/ThreeSampleHolder.png)
+8. Move the holder to position 2 by turning the knob at the back of the holder, and repeat the process for your second sample. Then move the holder to position 3, and load your third sample. 
+9. Retract the holder to position 1 before loading into the TEM.  
+
+*** Important note *** Position 3 will crash into EDS detector #2 when inserted. In general, it is advised to only used EDS detector #1 when using this holder.
+
+
+
+### 2.3 Specimen Loading and Holder Insertion
 #### Required Safety Precautions (Must check before ANY holder exchange):
 1.  **Stage is in the neutral (zeroed) position.**
 2.  **Beam valves are completely closed.**
@@ -68,7 +113,7 @@ If the accelerating voltage (HT) is not set to your desired operating value (80k
 *   Select the correct holder, and make sure the holder icon indicates "Specporter OK". This procedure is currently incomplete and needs to be corrected. 
 ---
 
-### 2.3 Basic TEM Mode Operations & Z-Height (Eucentric) Focus
+### 2.4 Basic TEM Mode Operations & Z-Height (Eucentric) Focus
 1.  Open the beam valves by pressing the **BEAM** switch on the left-hand panel (or click the column schematic drawing in *TEM Center*).
 2.  Select **Spot Size 1**, **Alpha 1** in TEM Mode.
 3.  Click on the camera icon in the TEM Center software to view the live image. If you cannot find the beam, decrease magnification, switch to **Low Mag** mode, check specimen position, or retract apertures.
@@ -81,7 +126,7 @@ If the accelerating voltage (HT) is not set to your desired operating value (80k
 
 ---
 
-### 2.4 Standard TEM Alignments (Linear Workflow)
+### 2.5 Standard TEM Alignments (Linear Workflow)
 
 #### A. CL (Condenser Lens) Aperture Centering
 *   *Note: Standardize on physical **CL Aperture** designations (CL Aperture No. 1, 2, 3, or 4) rather than using C2 or condenser interchangeably.*
@@ -115,7 +160,7 @@ If the accelerating voltage (HT) is not set to your desired operating value (80k
 
 ---
 
-### 2.5 STEM Mode Transition & Ronchigram Alignment
+### 2.6 STEM Mode Transition & Ronchigram Alignment
 
 #### A. Transitioning to STEM Mode
 1.  While in TEM mode, converge the beam into a small crossover spot using the **BRIGHTNESS** knob.
@@ -130,7 +175,7 @@ If the accelerating voltage (HT) is not set to your desired operating value (80k
 4.  Move the stage to position an amorphous region of your specimen (such as carbon support film) directly under the beam.
 5.  Double-click the **STD FOCUS** button on the right hand panel to set the objective lens to its default STEM focus.
 6.  Focus the Ronchigram by adjusting the stage physical **Z-height** up or down until you see the shadow image features expand. Continue to adjust Z-height until the "magnification" of the amorphous shadow image becomes nearly infinite, displaying a flat, uniform, and featureless central region (the center of convergence/divergence).
-7.  **Correct 2-Fold Astigmatism:** Click the **CL STIG** (or **COND STIG**) button on the left hand panel. Use the physical **DEF/STIG X/Y** knobs to correct the astigmatism in the Ronchigram, turning the elliptical distortion into a perfectly circular, concentric pattern.
+7.  **Correct 2-Fold Astigmatism:** Click the **CL STIG** (or **COND STIG**) button on the left hand panel. Use the physical **DEF/STIG X/Y** knobs to correct the astigmatism in the Ronchigram, turning the elliptical distortion into a perfectly circular, concentric pattern.  ![CL Stigmation in Ronchigram](./images/ronchigram-cond-stig.png)
 8.  **OBJ Wobbler Rotation Center (Rarely Needed):** If needed, activate the **OL wobble** in the *Wobbler* window of the *Lens/Deflector* tab. Ensure the center of the uniform, flat Ronchigram region remains the stationary center of the convergence/divergence wobble. If it is shifting, select **BRIGHT TILT** and adjust the physical **DEF/STIG** knobs until it is stationary. Disable the OL wobble when complete.
 9.  **PLA Centering:** Turn on the Projector Lens Alignment (**PLA**) button on the left hand panel. Use the physical **DEF/STIG X/Y** knobs to center the flat, uniform central part of the Ronchigram precisely on the crosshairs of the screen camera. Disable PLA when finished.
 10. **Insert CL Aperture No. 3:** Physical **CL Aperture No. 3** (typically $40\,\mu\text{m}$) is standard for STEM imaging. Insert the aperture and mechanically center it concentrically around the flat, aligned region of the Ronchigram.
@@ -138,7 +183,7 @@ If the accelerating voltage (HT) is not set to your desired operating value (80k
 
 ---
 
-### 2.6 Specialized Acquisitions
+### 2.7 Specialized Acquisitions
 
 #### A. EDS Spectra and Mapping Acquisition (FEMTUS)
 1.  **Detector Retraction & Cooling:** Click the **S-CHANGE** button on the detector controller. This retracts the detector safely and initiates cooling. Wait at least **3 minutes** for the cooling cycle to complete. Ensure you do not leave the system in S-CHANGE mode unattended for over 1 hour to prevent the auto-timeout bake hazard.
@@ -161,7 +206,7 @@ If the accelerating voltage (HT) is not set to your desired operating value (80k
 
 ---
 
-### 2.7 End-of-Session & Shutdown Procedures
+### 2.8 End-of-Session & Shutdown Procedures
 1.  Close the column beam valves (the **BEAM** switch on the hand panel should be unlit).
 2.  Retract the specimen holder from the column (using Manual or automated SpecPorter retraction workflows).
 3.  Ensure all physical apertures (Objective/HC, SAD, CL) and the EDS detectors are fully retracted.

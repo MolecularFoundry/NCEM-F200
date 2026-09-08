@@ -4,7 +4,7 @@ Follow the procedure based on the specific holder you are using. First you will 
 
 
 ## Loading Samples into Single Tilt TEM Holder
-![Single Tilt Holder Image](./images/single_tilt.png)
+![Single Tilt Holder Image](../images/single_tilt.png)
 1. The "cartridge" where the sample is secured is removable by lifting the spring loaded "alligator clip" using the tool showed in the figure above. The cartridge can then be lifted and moved onto the white plastic chuck. The small metal pin on the plastic chuck should go through the small hole on the back end of the cartridge (away from the sample) to prevent the cartridge from sliding around. 
 2. Sligtly loosen the 2 screws, swivel the copper clamp with tweezers to reveal the 3mm specimen cup. Remove any sample in the cup using vacuum tweezers. 
 3. Place your sample in the cup, and swivel the copper clamp back on top of the sample. 
@@ -15,8 +15,8 @@ Follow the procedure based on the specific holder you are using. First you will 
 
 ## Loading Samples into Double Tilt EDS Holder
 WARNING: This holder is made using Beryllium metal for X ray transparency. Beryllium can corrode when wet, and is extremely toxic.
-![Double Tilt Holder Image](./images/double_tilt_holder.png)
-![Double Tilt Holder Detailed Image](./images/double_tilt_detailed.png)
+![Double Tilt Holder Image](../images/double_tilt_holder.png)
+![Double Tilt Holder Detailed Image](../images/double_tilt_detailed.png)
 1. Place the plastic sample exchange mount on the specimen holder stand. 
 2. Place the sample holder on the exchange mount with the guide pin facing downwards. The bottom surface of the sample retaining region should be supported by the plastic sample exchange mount. 
 3. Partially loosen 2 screws which hold down the copper retaining arms (called leaf springs) with a small flathead screwdriver. Swing the leaf springs away from the sample cup by gently poking them with a tweezer. 
@@ -37,7 +37,7 @@ This holder needs special care-- samples can be loaded using the special tools w
 4. Place your sample in the sample cup. 
 5. Place the spacer into the sample cup. This is not needed for Silicon nitride grids > 100um thickness. 
 6. Place the specimen fixing screw into the cup. 
-7. Use the 3 pronged screw driver to turn the specimen fixing screw into the sample cup. ![Three Sample Holder](./images/ThreeSampleHolder.png)
+7. Use the 3 pronged screw driver to turn the specimen fixing screw into the sample cup. ![Three Sample Holder](../images/ThreeSampleHolder.png)
 8. Move the holder to position 2 by turning the knob at the back of the holder, and repeat the process for your second sample. Then move the holder to position 3, and load your third sample. 
 9. Retract the holder to position 1 before loading into the TEM.  
 
@@ -71,7 +71,7 @@ Before any sample exchange make sure the following are true:
 6. In the "Open Project" window, select the correct TEM holder. If you do not select a TEM holder, the nanospace map (stage navigator) will not work correctlly.
 7. If using the double tilt holder, plug the cable into the TLT-Y socket on the goiniometer.
 
-![Schematic for inserting TEM rod into column](./images/tem_insertion.png)
+![Schematic for inserting TEM rod into column](../images/tem_insertion.png)
 
 ## Loading holders using the specporter
 
@@ -132,7 +132,7 @@ The specporter is designed to load and unload the TEM holder into the column by 
 2. Enable automatic removal by pushing the Auto/Manual button on the goiniometer till the button says "Auto".
 3. Click "Auto" in the SpecPorter settings window in TEM Center. 
 4. In the "open project" window of TEM Center, to the left of the holder icon, check the Operation is set to Auto (not manual). 
-5. Press the Insert/Remove button on the goiniometer panel. ![Insert/Remove Button](./images/InsertRemove.png)
+5. Press the Insert/Remove button on the goiniometer panel. ![Insert/Remove Button](../images/InsertRemove.png)
 6. When the sequence finishes, the carrier plate will return to its original position, the pump/air switch will say "Air", "Insert Ready" will be displayed on the Insert/Remove switch, and the icon indicating the holder will disappear from the TEM Center Detectors/Aperture tab. 
 7. With a gloved hand, hold the TEM metal rod at the point closest to the goiniometer, while pulling the rod out with your other hand holding the back of the TEM holder.
 8. Remove your sample from the holder, and load the holder in the correct cradle safely. 

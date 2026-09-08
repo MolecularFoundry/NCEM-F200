@@ -5,7 +5,7 @@ It makes sens to start your oberservation in TEM mode. Finding the specimen is m
 ## Start Viewing
 1. Only if column vacuum (SIP3) is below 4E-5Pa, press the beam button to open the column valve. 
 2. Click on "Cam" in the TEM Center Detectors/Apertures panel to see the fluorescent screen camera image. If nothing pops up, go to View (top menu bar), and check that "Large Screen Camera" is enabled. 
-3. Insert a C2 aperture and [center it](./subprocesses/Centering_C2_Aperture.md).
+3. Insert a C2 aperture and [center it](../subprocesses/Centering_C2_Aperture.md).
 4. Go to Spot 1, Alpha 1. 
 5. Push the std focus button. 
 6. View the image on the fluorescent screen and bring the image into focus using [Z height](Z height.md). You can use the image wobbler to make this easier. 
