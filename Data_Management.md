@@ -25,3 +25,9 @@
 - You should be able to log into the data drive by connecting to a server (command+K) . Type in "f200-support.dhcp.lbl.gov" into the address bar, which will autocomplete to "smb://f200-support.dhcp.lbl.gov".
 - Use the login credentials for NCEMuser 
 - You can then copy the data over to a local drive for analysis. 
+
+## Accessing the TVIPS PC from Windows PC (slow, ~ 0.1GB per minute)
+- The TVIPS PC is connected to LBL network. 
+- You should be able to log into the data drive using windows explorer and typing in \\\tvips-scan.dhcp.lbl.gov into the address bar.
+- Use the login credentials with username "tvips", and password as indicated during training.  
+- You can then copy the data over to a local drive for analysis. 

@@ -167,6 +167,8 @@ This holder needs special care-- samples can be loaded using the special tools w
 2.  Ensure **BRIGHT TILT** is selected on the left hand panel.
 3.  Center the spot to the exact center of the fluorescent screen using the physical **SHIFT X/Y** knobs.
 4.  In the *TEM Center* software interface, navigate to the *Detector/Aperture* panel, open the *Operation Mode* setting, and select **Scanning**. The lens settings will automatically configure for STEM scanning.
+5. Select the appropriate scan controller using the 2 hardware toggle boxes on the microscope console. 
+
 
 #### B. Ronchigram Alignment & Probe Tuning
 1.  In the *Scan* tab of *TEM Center*, ensure you are in **Spot Mode** to park the beam in a single location.
@@ -174,14 +176,24 @@ This holder needs special care-- samples can be loaded using the special tools w
 3.  Select a Camera Length of **1000 mm or higher** (e.g., 1000mm) so the Ronchigram details can be clearly resolved.
 4.  Move the stage to position an amorphous region of your specimen (such as carbon support film) directly under the beam.
 5.  Double-click the **STD FOCUS** button on the right hand panel to set the objective lens to its default STEM focus.
-6.  Focus the Ronchigram by adjusting the stage physical **Z-height** up or down until you see the shadow image features expand. Continue to adjust Z-height until the "magnification" of the amorphous shadow image becomes nearly infinite, displaying a flat, uniform, and featureless central region (the center of convergence/divergence).
-7.  **Correct 2-Fold Astigmatism:** Click the **CL STIG** (or **COND STIG**) button on the left hand panel. Use the physical **DEF/STIG X/Y** knobs to correct the astigmatism in the Ronchigram, turning the elliptical distortion into a perfectly circular, concentric pattern.  ![CL Stigmation in Ronchigram](./images/ronchigram-cond-stig.png)
-8.  **OBJ Wobbler Rotation Center (Rarely Needed):** If needed, activate the **OL wobble** in the *Wobbler* window of the *Lens/Deflector* tab. Ensure the center of the uniform, flat Ronchigram region remains the stationary center of the convergence/divergence wobble. If it is shifting, select **BRIGHT TILT** and adjust the physical **DEF/STIG** knobs until it is stationary. Disable the OL wobble when complete.
-9.  **PLA Centering:** Turn on the Projector Lens Alignment (**PLA**) button on the left hand panel. Use the physical **DEF/STIG X/Y** knobs to center the flat, uniform central part of the Ronchigram precisely on the crosshairs of the screen camera. Disable PLA when finished.
-10. **Insert CL Aperture No. 3:** Physical **CL Aperture No. 3** (typically $40\,\mu\text{m}$) is standard for STEM imaging. Insert the aperture and mechanically center it concentrically around the flat, aligned region of the Ronchigram.
-11. **Final STEM Setup:** Disable the Ronchigram mode. Change the Camera Length to **200 mm or 300 mm** (ideal for Dark Field STEM imaging). In the *Scan* menu, select **Full Scan** (or disable Spot mode) to initiate active raster scanning. Ensure **Scan DFI Upper** is active in the *View* panel to view the High-Angle Annular Dark Field (HAADF) image.
+6.  Focus the Ronchigram by adjusting the stage physical **Z-height** up or down until you see the shadow image features expand. Continue to adjust Z-height until the "magnification" of the amorphous shadow image becomes nearly infinite, displaying a flat, uniform, and featureless central region (the center of convergence/divergence). 
+7.  Use PLA and DEF/STIG knobs on hand panels to center the rochnigram on the fluorescent camera. 
+8.  **Correct 2-Fold Astigmatism:** Click the **CL STIG** (or **COND STIG**) button on the left hand panel. Use the physical **DEF/STIG X/Y** knobs to correct the astigmatism in the Ronchigram, turning the elliptical distortion into a perfectly circular, concentric pattern.  ![CL Stigmation in Ronchigram](./images/ronchigram-cond-stig.png)
+9.  **OBJ Wobbler Rotation Center (Rarely Needed):** If needed, activate the **OL wobble** in the *Wobbler* window of the *Lens/Deflector* tab. Ensure the center of the uniform, flat Ronchigram region remains the stationary center of the convergence/divergence wobble. If it is shifting, select **BRIGHT TILT** and adjust the physical **DEF/STIG** knobs until it is stationary. Disable the OL wobble when complete.
+10. **PLA Centering:** Turn on the Projector Lens Alignment (**PLA**) button on the left hand panel. Use the physical **DEF/STIG X/Y** knobs to center the flat, uniform central part of the Ronchigram precisely on the crosshairs of the screen camera. Disable PLA when finished.
+11. **Insert CL Aperture No. 3:** Physical **CL Aperture No. 3** (typically $40\,\mu\text{m}$) is standard for STEM imaging. Insert the aperture and mechanically center it concentrically around the flat, aligned region of the Ronchigram.
+12. **Final STEM Setup:** Disable the Ronchigram mode. Change the Camera Length to **200 mm or 300 mm** (ideal for Dark Field STEM imaging). Choose the correct scan controller : 
+    
+| Scan Software                                            | Scan Selector 1 | Scan Selector 2 |
+|----------------------------------------------------------|-----------------|-----------------|
+| JEOL TEM Center                                          | Up              | Up              |
+| JEOL FEMTUS                                              | Down            | Up              |
+| Gatan (will display external scan message on TEM Center) | Up              | Up              |
+| TVIPS for Arina                                          | Up              | Down            |
 
----
+13. For TEM Center scanning, in the *Scan* menu, select **Full Scan** (or disable Spot mode) to initiate active raster scanning. Ensure **Scan DFI Upper** is active in the *View* panel to view the High-Angle Annular Dark Field (HAADF) image.
+
+
 
 ### 2.7 Specialized Acquisitions
 
@@ -198,7 +210,7 @@ This holder needs special care-- samples can be loaded using the special tools w
 3.  **Aperture & Scan Setup:** Switch the physical external scanning coils from Gatan control to Dectris control. Set the scan switch box to **EDS 2**.
 4.  **Insert the Arina Camera:** Push the appropriate insertion button on the retro silver triangular console (positioned under the Gatan monitors on the F200 desk). The indicator lights will illuminate once the camera is fully inserted.
 5.  **Detector High Voltage Safety:** In the TVIPS *Emplified Scan* software, navigate to the *Dectris* tab and click on the **lightning bolt** icon to turn ON the detector high-voltage.
-    *   ⚠️ **HIGH VOLTAGE SAFETY RULE:** **Always turn the Arina detector voltage OFF** (the lightning bolt icon must display "Off") when the detector is not actively acquiring data, or whenever you are opening/closing the column beam valves.
+    *   ⚠️ **HIGH VOLTAGE SAFETY RULE:** **Always turn the Arina detector voltage OFF** (the lightning bolt icon must display "Off") when the detector is not actively acquiring data, or whenever you are opening/closing the column beam valves, or inserting and retracting detectors.
 6.  **Retract Fluorescent Screen:** Retract the physical fluorescent screen and the standard STEM Bright Field (BF) detector to clear the path to the Arina sensor.
 7.  Once the detector voltage is ready (the lightning bolt shows "Ready"), select **Continuous** in the *Scan* tab to view the live diffraction pattern. 
 8.  Use **PLA** with the physical **DEF/STIG** knobs to center the diffraction beam on the Arina camera sensor. You can adjust Camera Length or zoom in/out with the mouse scroll wheel.
