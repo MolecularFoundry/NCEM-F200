@@ -120,8 +120,8 @@ This holder needs special care-- samples can be loaded using the special tools w
 4.  **Z-Height Focus (Eucentric Height) Alignment:**
     *   Find a recognizable feature or particle on the specimen.
     *   Press the **STD FOCUS** button on the right-hand panel. This sets the standard focal length of the objective lens (OLF analog reference value is **1.88**).
-    *   Activate the **IMAGE WOBB X** or **Y** wobbler on the left-hand panel to oscillate the beam.
-    *   Focus the specimen by adjusting the stage physical height up or down using the **Z-height buttons** ($\\text{Z}\\blacktriangle$ and $\\text{Z}\\blacktriangledown$) on the stage rotation panel. Align the specimen height until the image vibration/wobble is completely minimized and the image merges into a single focused view.
+    *   Activate the **IMAGE WOBB X** or **Y** wobbler on the right-hand panel to oscillate the beam.
+    *   Focus the specimen by adjusting the stage physical height up or down using the **Z-height buttons** ($\\text{Z}\\blacktriangle$ and $\\text{Z}\\blacktriangledown$) on the stage rotation panel. Align the specimen height until the image wobble is completely minimized and the image merges into a single focused view.
     *   Disable the wobbler and perform fine focusing using the physical **OBJ FOCUS** knob on the right-hand panel.
 
 ---
@@ -129,9 +129,9 @@ This holder needs special care-- samples can be loaded using the special tools w
 ### 2.5 Standard TEM Alignments (Linear Workflow)
 
 #### A. CL (Condenser Lens) Aperture Centering
-*   *Note: Standardize on physical **CL Aperture** designations (CL Aperture No. 1, 2, 3, or 4) rather than using C2 or condenser interchangeably.*
+
 1.  Converge the beam into a small spot using the **BRIGHTNESS** knob.
-2.  Center the spot on the screen using the physical **SHIFT X/Y** knobs.
+2.  Center the spot on the screen using the physical **SHIFT X/Y** knobs on the left and right hand panel.
 3.  Select physical **CL Aperture No. 1 or No. 2** (used for TEM mode).
 4.  Slowly turn the **BRIGHTNESS** knob clockwise to spread the beam. 
 5.  If the beam spreads asymmetrically relative to the center of the screen, adjust the physical mechanical centering screws on the CL aperture drive until the beam expands and contracts perfectly concentrically about the screen center.
