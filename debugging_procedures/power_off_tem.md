@@ -1,4 +1,5 @@
 # Powering off TEM
+***Note: hold down buttosn for at least 3 seconds***
 1. Worry about gatan, dectris. We did not turn off Dectris, but we did power off the Clearview Camera via GMS software and Digiscan box in the chase room.
 2. Turn down HT.
 3. Turn Power switch (near right knee of operator) to OFF state. 
