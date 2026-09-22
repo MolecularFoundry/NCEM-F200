@@ -33,7 +33,7 @@
 If the accelerating voltage (HT) is not set to your desired operating value (80kV or 200kV), use the following procedure:
 1.  Click the **Vacuum: Ready** link in the *Detector/Aperture* window to open the *Valve/Vacuum Monitor*. Verify column pressure is safe.
 2.  In the *TEM Center* panel, click the **HT** button.
-3.  **For 80kV Operation:** Expand the menu and **turn on the EL short** by clicking **100**. (This protects the column and optimizes low-voltage optics).
+3.  **For 80kV Operation:** Expand the menu and **turn on the EL short** by clicking **100**. (This optimizes low-voltage optics).
 4.  **For 200kV Operation:** Expand the menu and ensure the **EL short is turned OFF**.
 5.  Select the desired target HT voltage (only **80kV** and **200kV** are available). The selected target will illuminate in **green**.
 6.  Ensure the **HT ON** button is green; click it to ramp the voltage if it is not.
@@ -116,17 +116,33 @@ This holder needs special care-- samples can be loaded using the special tools w
 ### 2.4 Basic TEM Mode Operations & Z-Height (Eucentric) Focus
 1.  Open the beam valves by pressing the **BEAM** switch on the left-hand panel (or click the column schematic drawing in *TEM Center*).
 2.  Select **Spot Size 1**, **Alpha 1** in TEM Mode.
-3.  Click on the camera icon in the TEM Center software to view the live image. If you cannot find the beam, decrease magnification, switch to **Low Mag** mode, check specimen position, or retract apertures.
+3.  Click on the camera icon in the TEM Center software to view the live image. If you cannot find the beam, try the following:
+    1.  decrease magnification, switch to **Low Mag** mode,
+    2.  move specimen position
+    3.  retract apertures. 
+    4.  Change the illuminated area, which may possibly be too large.
+    5.  Make sure beam is not blanked and EDM is disabled (press the MOD Enable button on the black dose modulator hand panel on the TEM console).
 4.  **Z-Height Focus (Eucentric Height) Alignment:**
-    *   Find a recognizable feature or particle on the specimen.
-    *   Press the **STD FOCUS** button on the right-hand panel. This sets the standard focal length of the objective lens (OLF analog reference value is **1.88**).
-    *   Activate the **IMAGE WOBB X** or **Y** wobbler on the right-hand panel to oscillate the beam.
-    *   Focus the specimen by adjusting the stage physical height up or down using the **Z-height buttons** ($\\text{Z}\\blacktriangle$ and $\\text{Z}\\blacktriangledown$) on the stage rotation panel. Align the specimen height until the image wobble is completely minimized and the image merges into a single focused view.
-    *   Disable the wobbler and perform fine focusing using the physical **OBJ FOCUS** knob on the right-hand panel.
-
+    1.  Method 1:
+        *   Find a recognizable feature or particle on the specimen.
+        *   Press the **STD FOCUS** button on the right-hand panel. This sets the standard focal length of the objective lens (OLF analog reference value is **1.88**).
+        *   Activate the **IMAGE WOBB X** or **Y** wobbler on the right-hand panel to oscillate the beam.
+        *   Focus the specimen by adjusting the stage physical height up or down using the **Z-height buttons** on the stage rotation panel. Align the specimen height until the image wobble is completely minimized and the image merges into a single focused view.
+        *   Disable the wobbler and perform fine focusing using the physical **OBJ FOCUS** knob on the right-hand panel.
+    2. Method 2: 
+        *    In TEM mode, move the stage so that your sample is centered under on the fluorescent screen. 
+        *    Go to standard focus. 
+        *    Converge the beam to crossover using the brightness knob. 
+        *    You will see a converged spot on the screen with a halo of scattering (which may look like a diffraction pattern or like thon rings depending on your sample). 
+        *    Move the stage in Z (either up or down), and make the halo  converge into the central spot. This should be reasonably close to correct focus.
+   3. Method 3 (for fine adjustment):
+        *    Look for minimum contrast in a bright field TEM image. 
+        *    You can also open Live FFT for a HRTEM image, and look for the Thon rings. Ideally, you want about 1 thon ring to be visible. You can keep the objective lens at standard focus, and use the Super Fine stage movemment (piezo stage) to focus the image.      
 ---
 
 ### 2.5 Standard TEM Alignments (Linear Workflow)
+
+Once your sample is at the correct Z height, you can proceed with the following steps. 
 
 #### A. CL (Condenser Lens) Aperture Centering
 
@@ -205,23 +221,24 @@ This holder needs special care-- samples can be loaded using the special tools w
 5.  Acquire your spectra or maps. Once complete, click **BAKE** or **S-CHANGE** to safely retract the detector and preserve the cooling state.
 
 #### B. 4D-STEM Data Collection (Dectris Arina Camera & TVIPS Scan Generator)
-1.  Align the TEM column in micro-diffraction (**uDiff**) or standard STEM diffraction mode. Set your desired convergence angle, CL aperture, and spot size.
+1.  Align the TEM column in micro-diffraction (**uDiff**) or standard STEM diffraction mode. Set your desired convergence angle, CL aperture, and spot size. It is easiest to align the ronchigram with a C2 aperture of 200um, which gives us a convergence angle of about 35 mrad. Adjust Condenser Stigmation and objective lens wobble. 
 2.  **Camera Conflict Check (Crucial):** The TVIPS ClearView and Dectris Arina cameras sit on the same physical plane. **Verify that the ClearView camera is completely retracted before attempting to insert the Arina camera**.
-3.  **Aperture & Scan Setup:** Switch the physical external scanning coils from Gatan control to Dectris control. Set the scan switch box to **EDS 2**.
-4.  **Insert the Arina Camera:** Push the appropriate insertion button on the retro silver triangular console (positioned under the Gatan monitors on the F200 desk). The indicator lights will illuminate once the camera is fully inserted.
-5.  **Detector High Voltage Safety:** In the TVIPS *Emplified Scan* software, navigate to the *Dectris* tab and click on the **lightning bolt** icon to turn ON the detector high-voltage.
+3.  **Scan Setup:** Switch the physical external scanning coils from Gatan control to Dectris control. Set the scan switch box to **EDS 2**.
+4.  **Software startup**: You can access the TVIPS PC using the remote desktop connection on the Gatan desktop. Open TVIPS Emplified software. When you click on the `dectris` icon in the top bar, where you should see the lightning bolt symbol has the word `Off` under it. This means the HV supply to the Arina is turned off. 
+5.  **Insert the Arina Camera:** Check that Clearview is retracted. Push the  insertion button on the retro silver triangular console (positioned under the Gatan monitors on the F200 desk). The indicator lights will illuminate once the camera is fully inserted.
+6.  **Detector High Voltage Safety:** In the TVIPS *Emplified Scan* software, navigate to the *Dectris* tab and click on the **lightning bolt** icon to turn ON the detector high-voltage. The icon will change to "Ramping" and then finally to "Ready".
     *   ⚠️ **HIGH VOLTAGE SAFETY RULE:** **Always turn the Arina detector voltage OFF** (the lightning bolt icon must display "Off") when the detector is not actively acquiring data, or whenever you are opening/closing the column beam valves, or inserting and retracting detectors.
-6.  **Retract Fluorescent Screen:** Retract the physical fluorescent screen and the standard STEM Bright Field (BF) detector to clear the path to the Arina sensor.
-7.  Once the detector voltage is ready (the lightning bolt shows "Ready"), select **Continuous** in the *Scan* tab to view the live diffraction pattern. 
-8.  Use **PLA** with the physical **DEF/STIG** knobs to center the diffraction beam on the Arina camera sensor. You can adjust Camera Length or zoom in/out with the mouse scroll wheel.
-9.  **Collect Data:** Execute your 4D-STEM raster scan. Once acquisition is complete, click **Abort**, turn the Arina detector high voltage **OFF**, and retract the camera.
+7.  **Retract Fluorescent Screen:** Retract the physical fluorescent screen and the standard STEM Bright Field (BF) detector to clear the path to the Arina sensor.
+8.  Once the detector voltage is ready (the lightning bolt shows "Ready"), select **Survey** button in the *dectris* tab to view the live diffraction pattern on the camera. 
+9.  Use **PLA** with the physical **DEF/STIG** knobs to center the diffraction beam on the Arina camera sensor. You can adjust Camera Length to make sure you have a reasonable field of view in reciprocal space. Zoom in/out with the mouse scroll wheel. Sometimes, the PLA shift is too large, and you may need to drop the fluorescent screen to see the center of your diffraction pattern. Shift it back to the middle of the crosshairs on the fluorescent screen and it should be close to the middle of the arina camera. 
+10. **Collect Data:** Select a field of view (this is easiest to do when using the Gatan or JEOL STEM scans, moving the stage and changing magnification till your field of view is where you want to acquire 4DSTEM data). Set up your file name and data path, under the `scan` tab in the TVIPS Emplified software. On the left side, under `scan configuration`, you can set up the number of pixels and the dwell time. Reasonable parameters are 256x256 pixels with 500$\mu$s dwell time. Execute your 4D-STEM raster scan by pressing the `single` button under the `scan` tab. Once acquisition is complete, turn the Arina detector high voltage **OFF**, and retract the camera. Check to see if the data files are saved in the path you had set up.
 
 ---
 
 ### 2.8 End-of-Session & Shutdown Procedures
 1.  Close the column beam valves (the **BEAM** switch on the hand panel should be unlit).
 2.  Retract the specimen holder from the column (using Manual or automated SpecPorter retraction workflows).
-3.  Ensure all physical apertures (Objective/HC, SAD, CL) and the EDS detectors are fully retracted.
+3.  Ensure all physical apertures (Objective/HC, SAD, CL), camera and the detectors (EDS, HAADF, BF and Arina) are fully retracted.
 4.  **ACD Heat Cycle (Daily Shutdown):**
     *   Ensure the specimen holder has been completely removed from the goniometer column.
     *   Confirm all column valves are closed.
