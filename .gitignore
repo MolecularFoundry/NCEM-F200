@@ -206,3 +206,5 @@ widget/scripts/
 widget/tests/integration/
 widget/tests/snapshots/
 
+# secret notes not to be shared with users
+misc-notes/
