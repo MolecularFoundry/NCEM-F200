@@ -5,10 +5,10 @@ It makes sens to start your oberservation in TEM mode. Finding the specimen is m
 ## Start Viewing
 1. Only if column vacuum (SIP3) is below 4E-5Pa, press the beam button to open the column valve. 
 2. Click on "Cam" in the TEM Center Detectors/Apertures panel to see the fluorescent screen camera image. If nothing pops up, go to View (top menu bar), and check that "Large Screen Camera" is enabled. 
-3. Insert a C2 aperture and [center it](../subprocesses/Centering_C2_Aperture.md).
+3. Insert a C2 aperture and [center it](../subprocesses/Centering_C2_Aperture.md). I normally start with the 200um or 100um aperture for coarse alignment. 
 4. Go to Spot 1, Alpha 1. 
 5. Push the std focus button. 
-6. View the image on the fluorescent screen and bring the image into focus using [Z height](Z height.md). You can use the image wobbler to make this easier. 
+6. View the image on the fluorescent screen and bring the image into focus using [Z height](../subprocesses/Z_height.md). 
 
 ## Pre specimen column alignment: setup illumination, find Z height, center C2 aperture and HT center
 
@@ -24,11 +24,11 @@ If you select the button "Convergent Mag Link" and "Brightness Mag Link" using t
 | 4     | 5kX - 25kX          |
 | 5     | <4kX                |
 
-If your desired conditions do not give you a visible beam on the screen, and your sample is not blocking the beam, you can move to a smaller spot size number (larger beam current). 
+If your desired conditions do not give you a visible beam on the screen, and your sample is not blocking the beam, you can move to a smaller spot size number (larger beam current) and lower magnification to try and find the beam. 
 
-2. Press the standard focus button, and adjust [Z height](Z height.md). 
+2. Press the standard focus button, and adjust [Z height](../subprocesses/Z_height.md). 
 3. Insert the largest C2 aperture and [center it](Centering C2 Aperture.md).
-4. [Adjust Condenser Stigmation](subprocesses\Condenser Stigmation.md) by clicking the Cond Stig button on the left hand panel, and using the DEF/STIG buttons on the left and right hand panels. Make the illuminated area as round as possible on either side of crossover. If this alignment is not looking OK, do the best you can and revsiit this after adjusting the voltage center. 
+4. [Adjust Condenser Stigmation](../subprocesses/Condenser_Stigmation.md) by clicking the Cond Stig button on the left hand panel, and using the DEF/STIG buttons on the left and right hand panels. Make the illuminated area as round as possible on either side of crossover. If this alignment is not looking OK, do the best you can and revsiit this after adjusting the voltage center. 
 5. Adjust [Tilt balance](Tilt Balance.md).
 6. Follow the procedure for [voltage centering](Voltage Centering.md).
    

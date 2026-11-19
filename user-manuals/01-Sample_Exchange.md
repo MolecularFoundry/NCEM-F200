@@ -57,21 +57,24 @@ Before any sample exchange make sure the following are true:
 5. Dectris Arina is retracted AND the high voltage on the sensor is turned off. The lighning bolt icon in the TVIPS software should show the word "Off" under the lightning bolt. 
 6. ClearView Camera is retracted.
 
-![Goiniometer](./images/Goiniometer.png)
+![Goiniometer](../images/Goiniometer.png)
 
 1. Ensure the third (bottom) button on the goiniometer panel says "Manual".  This means the holder will be loaded manually. If it says auto, push it till it says "Manual".
 2. Align the holder mini pin with the groove at the 9-o clock position, and insert the holder till you reach a physical stop. **DO NOT TURN THE HOLDER YET**.
 3. Push the button which says "Air" on the goiniometer panel. This will change the button to "Pump", and the Diffusion Pump will start pumping on the TEM holder. The pump button will be flashing. The pressure to observe is PiG4 in the "Valve Vacuum Monitor" page. Because V8 and V21 should be open (green), PiG4 will drop over time.
 4. If using the EDS double tilt holder, plug in the cable for the beta tilt into the goiniometer plug lablled "TL-Y".  
-5. Once PiG4 reaches 36uA, the holder can be inserted into the column. To do this, you need to follow this sequence:
+5. Once PiG4 reaches 40uA, the holder can be inserted into the column. To do this, you need to follow this sequence (refer to schematic below):
   a) do a short clockwise turn till you reach a physical stop,
   b) short insertion till you reach a physical stop,
   c) long clockwise turn till you reach a physical stop,
   d) long insertion till holder is in the column.
+
+  
+![Schematic for inserting TEM rod into column](../images/tem_insertion.png)
+
 6. In the "Open Project" window, select the correct TEM holder. If you do not select a TEM holder, the nanospace map (stage navigator) will not work correctlly.
 7. If using the double tilt holder, plug the cable into the TLT-Y socket on the goiniometer.
 
-![Schematic for inserting TEM rod into column](../images/tem_insertion.png)
 
 ## Loading holders using the specporter
 
